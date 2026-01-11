@@ -14,7 +14,7 @@ export const channels: Channel[] = [
     id: "tv1",
     name: "Sport",
     sources: [
-      { label: "L'Equipe", url: "https://dshn8inoshngm.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gac2i63dmu8b7/c8f1426d-8cd0-4a24-b9e4-4c4c663f6720/1.m3u8" },
+      { label: "L'Equipe", url: "https://live2.eu-north-1b.cf.dmcdn.net/sec2(ZV2Yb6oue8VE2_1hABj7O2dpM7MUtonpCYeM0zHENL-emBzI5qjPcTwBAZ-fI0kytDsij8Cu7l4wq7ECk5EgduuVVV-NscZuTE8_lzrFDGNPhhkdR2mwhlSleG0qHqTB)/cloud/3/x6hczsw/d/live-720@60.m3u8" },
       { label: "Africa 24 Sport", url: "https://edge15.vedge.infomaniak.com/livecast/ik:africa24sport/chunklist_w1834517297.m3u8" },
       { label: "Euro Sport 1", url: "https://live2.eu-north-1a.cf.dmcdn.net/sec2(DsXTkrovPsxWjBZj6s2-PmhQHkT2iKLhJIcXBbWd2bHeH27azL0RDkTXKcKQdL-SWiufo_NSrXn0n39SknQhxM4d_k3OuiR0uj2yncFz3fMAHflr_paY3X8Puyuwn60x)/cloud/3/x9lx07s/d/live-720@60.m3u8" },
       { label: "Euro Sport 2", url: "https://live2.eu-north-1b.cf.dmcdn.net/sec2(5xMPLCfHZ4O8l9MZU1JmSkERDwyNwpzBB5d5E9UDmR51xVVIafLt5IQBKwcnJOJ1UprP6FsfMkiyI2wheu4QUxJm6kUI_LCofvyKZFVdM6xVpkAOYS3710gz_DdswQzO)/cloud/3/x9lx0e4/d/live-720@60.m3u8" },
