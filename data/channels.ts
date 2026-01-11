@@ -11,6 +11,13 @@ export type Channel = {
 
 export const channels: Channel[] = [
   {
+    id: "tv0",
+    name: "Top",
+    sources: [
+      { label: "FC Barcelona - Real Madrid", url: "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8" },
+    ],
+  },
+  {
     id: "tv1",
     name: "Sport",
     sources: [
@@ -20,6 +27,8 @@ export const channels: Channel[] = [
       { label: "Euro Sport 2", url: "https://live2.eu-north-1b.cf.dmcdn.net/sec2(5xMPLCfHZ4O8l9MZU1JmSkERDwyNwpzBB5d5E9UDmR51xVVIafLt5IQBKwcnJOJ1UprP6FsfMkiyI2wheu4QUxJm6kUI_LCofvyKZFVdM6xVpkAOYS3710gz_DdswQzO)/cloud/3/x9lx0e4/d/live-720@60.m3u8" },
       { label: "FIFA+", url: "https://9b839ec7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9GSUZBUGx1c0ZyZW5jaF9ITFM/playlist.m3u8?ads.wurl_channel=1778&ads.wurl_name=FIFAPlusFrench&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D" },
       { label: "Bein Sports Xtra", url: "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8" },
+      { label: "Infosport", url: "http://212.102.60.80/Infosport/index.m3u8" },
+      { label: "Real TV", url: "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8" },
     ],
   },
   {
