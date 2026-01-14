@@ -26,6 +26,7 @@ export const channels: Channel[] = [
       { label: "Real TV", url: "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8" },
       { label: "Sportdigital", url: "https://d162h6qqsk8wvl.cloudfront.net/8c880c40-991d-4253-aae9-754f1ed050ce/video_4.m3u8"},
       { label: "ATG", url: "https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr-avc1_3000000=658412288-mp4a_128000=497751258.m3u8"},
+      { label: "Trace Sport Stars", url: "https://tracesportstars-klowdtv.amagi.tv/playlist720P.m3u8" },
     ],
   },
   {
@@ -55,5 +56,13 @@ export const channels: Channel[] = [
       { label: "Gong", url: "https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8" },
       { label: "ADN", url: "https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=FRBD5100001ZA" },
     ],
+  },
+  {
+    id: "tv5",
+    name: "Documentaire",
+    sources: [
+      { label: "KTO", url: "https://cache1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzY4NDY4MzAyIiwic2lwIjoiIiwicGF0aCI6Ii9saXZlL2Vkcy9rdG8vYnJvd3Nlci1ITFM4LyIsInNlc3Npb25fY2RuX2lkIjoiYzdkODU0Yzk5MDVhMDQ4NiIsInNlc3Npb25faWQiOiIiLCJjbGllbnRfaWQiOiIiLCJkZXZpY2VfaWQiOiIiLCJtYXhfc2Vzc2lvbnMiOjAsInNlc3Npb25fZHVyYXRpb24iOjAsInVybCI6Imh0dHBzOi8vMTAuMC4yMjkuMTgiLCJzZXNzaW9uX3RpbWVvdXQiOjAsImF1ZCI6IjUzIiwic291cmNlcyI6WzEwMF19.WIsjHaymob4thsTPNoscX10aXVlVX5IIZQGbLP5tPpF3aRI5yHIKmGa3wvZ3N1sojwxU3dlav0U3pyaTXwC3Bg==/live/eds/kto/browser-HLS8/kto-avc1_1300000=10002.m3u8" },
+    ],
   }
+
 ];
