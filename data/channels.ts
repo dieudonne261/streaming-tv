@@ -10,13 +10,8 @@ export type Channel = {
 };
 
 export const channels: Channel[] = [
-  {
-    id: "tv0",
-    name: "Top",
-    sources: [
-      { label: "FC Barcelona - Real Madrid", url: "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8" },
-    ],
-  },
+  
+  
   {
     id: "tv1",
     name: "Sport",
@@ -29,6 +24,8 @@ export const channels: Channel[] = [
       { label: "Bein Sports Xtra", url: "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8" },
       { label: "Infosport", url: "http://212.102.60.80/Infosport/index.m3u8" },
       { label: "Real TV", url: "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8" },
+      { label: "Sportdigital", url: "https://d162h6qqsk8wvl.cloudfront.net/8c880c40-991d-4253-aae9-754f1ed050ce/video_4.m3u8"},
+      { label: "ATG", url: "https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr-avc1_3000000=658412288-mp4a_128000=497751258.m3u8"},
     ],
   },
   {
