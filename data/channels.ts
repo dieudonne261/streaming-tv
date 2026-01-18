@@ -11,8 +11,16 @@ export type Channel = {
 
 export const channels: Channel[] = [
   
-  
   {
+    
+    id: "tv0",
+    name: "Top",
+    sources: [
+      { label: "Maroc vs Senegal", url: "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/corp/83_medi1tv-afrique_tm7tu45_360p/chunks.m3u8" },
+    ],
+  },
+  {
+
     id: "tv1",
     name: "Sport",
     sources: [
