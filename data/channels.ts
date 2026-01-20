@@ -12,14 +12,6 @@ export type Channel = {
 export const channels: Channel[] = [
   
   {
-    
-    id: "tv0",
-    name: "Top",
-    sources: [
-      { label: "Maroc vs Sénégal", url: "https://viamotionhsi.netplus.ch/live/eds/m6hd/browser-HLS8/m6hd.m3u8" },
-    ],
-  },
-  {
 
     id: "tv1",
     name: "Sport",
